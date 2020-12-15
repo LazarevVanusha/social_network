@@ -1,29 +1,26 @@
 import React from 'react';
 import s from './Navigation.module.css';
+import {NavLink} from "react-router-dom";
 
-// let S = {
-//     'nav':'Navigation_nav_3ou9Q',
-//     'item': 'Navigation_item_3qaF3'
-// }
 const Navigation = () => {
-   return(
-       <nav className={s.nav}>
-           <div>
-               <a className={s.item} href='#'> Profile</a>
-           </div>
-           <div>
-               <a className={s.item} href='#'> Messages</a>
-           </div>
-           <div>
-               <a className={s.item} href='#'>  News</a>
-           </div>
-           <div>
-               <a className={s.item} href='#'> Music</a>
-           </div>
-           <div>
-               <a className={s.item} href='#'> Settings</a>
-           </div>
-       </nav>
-   )
+    return (
+        <nav className={s.nav}>
+            <div className={s.item}>
+                <NavLink to='/profile' activeClassName={s.active}> Profile</NavLink>
+            </div>
+            <div className={s.item}>
+                <NavLink to='/dialogs' activeClassName={s.active}> Messages</NavLink>
+            </div>
+            <div className={s.item}>
+                <NavLink to='/feed' activeClassName={s.active}> News</NavLink>
+            </div>
+            <div className={s.item}>
+                <NavLink to='/music' activeClassName={s.active}> Music</NavLink>
+            </div>
+            <div className={s.item}>
+                <NavLink to='/settings' activeClassName={s.active}> Settings</NavLink>
+            </div>
+        </nav>
+    )
 }
 export default Navigation;
