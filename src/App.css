@@ -1,3 +1,8 @@
+.root {
+    background-color: #e5ebf1;
+
+}
+
 .wrapper {
     margin: 0 auto;
     width: 1200px;
@@ -7,16 +12,21 @@
   "nav content";
     grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
+    background-color: #e5ebf1;
+
 }
 
 .app-wrapper-content {
     margin-top: 20px;
+    border-radius: 10px;
 
     grid-area: content;
-    background-color: lightblue;
+    background-color: white;
 }
 
 .app-wrapper-content img {
+    border-radius: 10px;
+
     width: 100%;
     height: 200px;
 }

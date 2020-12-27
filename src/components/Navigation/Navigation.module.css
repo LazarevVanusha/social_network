@@ -1,20 +1,30 @@
 .nav{
     grid-area: nav;
-    background-color: green;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 20px;
     padding: 20px;
+    background-color:#e5ebf1 ;
+
 }
 .item a{
-    color: white;
+    transition-duration: .5s;
+
+    color: black;
     text-decoration: none;
+line-height: 30px;
+
 }
 .item a.active{
-    color: gold;
+    font-size: 20px;
+    color:dodgerblue;
+    text-shadow: black 0 0 3px;
+
 }
  .item a:hover{
-     text-shadow: 1px 1px 2px black, 0 0 1em red; /* Параметры тени */
-     color: white; /* Белый цвет текста */
-     font-size: 1.5em; /* Размер надписи */
+
+     transition-duration: .1s;
+     text-shadow: 1px 1px 2px black, 0 0 1em blueviolet; /* Параметры тени */
+     color: dodgerblue; /* Белый цвет текста */
+     font-size: 1.1.05em; /* Размер надписи */
 
  }
