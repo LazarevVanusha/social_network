@@ -1,30 +1,33 @@
-.nav{
+.nav {
     grid-area: nav;
     margin-top: 10px;
     margin-right: 20px;
     padding: 20px;
-    background-color:#e5ebf1 ;
+    background-color: #e5ebf1;
 
 }
-.item a{
+
+.item a {
     transition-duration: .5s;
 
     color: black;
     text-decoration: none;
-line-height: 30px;
+    line-height: 30px;
 
 }
-.item a.active{
+
+.item a.active {
     font-size: 20px;
-    color:dodgerblue;
+    color: dodgerblue;
     text-shadow: black 0 0 3px;
 
 }
- .item a:hover{
 
-     transition-duration: .1s;
-     text-shadow: 1px 1px 2px black, 0 0 1em blueviolet; /* Параметры тени */
-     color: dodgerblue; /* Белый цвет текста */
-     font-size: 1.1.05em; /* Размер надписи */
+.item a:hover {
 
- }
+    transition-duration: .1s;
+    text-shadow: 1px 1px 2px black, 0 0 1em blueviolet; /* Параметры тени */
+    color: dodgerblue; /* Белый цвет текста */
+    font-size: 1.1 .05em; /* Размер надписи */
+
+}

@@ -4,14 +4,17 @@ display: grid;
 
 }
 .dialog{
-    margin-bottom: 10px;
+    padding-top: 15px;
+
+    padding-bottom: 15px;
 
 }
 .dialogsItems{
     padding: 10px;
+
 }
 .dialogsItems a{
-    padding: 10px;
+    padding: 20px;
     color: black;
     text-decoration: none;
 }
@@ -20,10 +23,16 @@ display: grid;
 
 
 }
-.dialogsItems a:hover{
+/*.dialogsItems a:hover{*/
+/*    background-color: #e5ebf1;*/
+/*    text-shadow: red 0 0 1px;*/
+
+/*}*/
+.dialogs .dialog.active:hover{
+
     background-color: #e5ebf1;
     text-shadow: black 0 0 1px;
-
+    border-radius: 10px ;
 }
 .messages{
     padding: 10px;

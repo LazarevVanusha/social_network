@@ -1,9 +1,10 @@
 import React from 'react';
 import s from './Header.module.css';
+import logo from '../../images/logo.png';
 const Header = () => {
    return(
        <header className={s.header}>
-        <img src = 'http://png-images.ru/wp-content/uploads/2015/01/bulb_PNG1239.png'/>
+        <img src ={logo} alt={'logo'}/>
            <div className={s.logoName}>lightbulb</div>
        </header>
    )
