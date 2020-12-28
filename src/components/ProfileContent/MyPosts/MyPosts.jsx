@@ -14,10 +14,10 @@ const MyPosts = (props) => {
 
     return (
         <div className={s.postsBlock}>
-            <h3> My posts</h3>
+            <h3> Мои записи</h3>
             <div>
                 <div><textarea ref={newPostElement}></textarea></div>
-                <button onClick={AddPost}>Опубликовать</button>
+                  <button onClick={AddPost}>Опубликовать</button>
             </div>
             <div className={s.posts}>
                 {postsElements}

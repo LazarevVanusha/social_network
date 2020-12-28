@@ -5,7 +5,8 @@
 
 .wrapper {
     margin: 10px auto;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     display: grid;
     grid-template-areas:
 "header header"
@@ -17,17 +18,18 @@
 }
 
 .app-wrapper-content {
-    margin-top: 20px;
-    border-radius: 10px;
 
+    margin-top: 70px;
+    border-radius: 10px;
     grid-area: content;
     background-color: white;
+    /*width: 60vw;*/
 }
 
 .app-wrapper-content img {
-    border-radius: 10px;
+    /*width: 60vw;*/
 
-    width: 100%;
+    border-radius: 10px;
     height: 200px;
 }
 

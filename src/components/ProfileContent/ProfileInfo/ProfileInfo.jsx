@@ -9,7 +9,6 @@ const ProfileInfo = () => {
                 <img src='https://tox-ick.org/wp-content/uploads/2011/09/water-1000x200.jpg'/>
             </div>
             <div className={s.descriptionBlock}>
-                ava + desc
             </div>
 
         </div>

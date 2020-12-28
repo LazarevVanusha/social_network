@@ -1,18 +1,21 @@
-.header{
+.header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
     display: grid;
     grid-template-columns: 0.5fr 10fr;
     grid-area: header;
     background-color: lightblue;
-    box-shadow: 0 0 10px rgba(0,0,0,10) ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10);
+    margin-top: 0;
 }
-.header img{
-    position: relative;
+
+.header img {
     margin-left: 300px;
     height: 60px;
 }
 
 .logoName {
-    position: relative;
     float: left;
     font-family: Magneto;
     align-self: center;
